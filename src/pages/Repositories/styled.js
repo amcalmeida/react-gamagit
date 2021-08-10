@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const Container = styled.div`
@@ -24,3 +25,14 @@ export const ListItemBG = styled.li`
     padding: .05rem;
 `;
 
+//Estilização de um componente do React
+export const LinkBackHome = styled(Link)` 
+    display: block;
+    width: 4rem;
+    text-align: center;
+    margin: 2rem auto;
+    background: #000;
+    color: #fff;
+    padding: .5rem 0;
+    text-decoration: none;
+`;

@@ -31,6 +31,7 @@ export default function Repositories() {
                     )
                 }) }
             </S.List>
+            <S.LinkBackHome to="/">Voltar</S.LinkBackHome>
         </S.Container>
     )
 }
