@@ -15,8 +15,6 @@ export default function Repositories() {
         if(aData != null) {
             //Converte o array em objeto.
             let oData = JSON.parse(aData);
-            console.log(oData);
-            console.log(repositories);
 
             //Armazena o objeto no repositório de nomes
             setRepositories(oData);
